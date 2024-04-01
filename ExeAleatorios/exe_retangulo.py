@@ -31,6 +31,9 @@ def pegar_variavel():
     lado2 = int(input('indique a largura em cm: '))
     return Retangulo(lado1,lado2)
 
+def alteraValor():
+    pass
+
 def main():
     print('Sobre o tamanho do comodo')
     obj_comodo = pegar_variavel()
